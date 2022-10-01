@@ -1,14 +1,26 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
+using System.Reflection.Metadata;
+
 namespace ChristmasWithTypes
 {
     public class Christmas
     {
         public string[] Presents;
         public string Santa { get; set; }
-        public int TreeHeight { get; set; } //TODO Make the Height property nullable
+        public int? TreeHeight { get; set; } //Done Make the Height property nullable
 
-        //TODO Make the property, "Day", type enum
-        public enum Day { /*Fill out the days of the week*/ };
+        //Done Make the property, "Day", type enum
+        public enum Day { Sun, Mon, Tue, Wed, Thu, Fri, Sat };
+       
+
+     
+
+
+
+
+
+
 
     }
 }
